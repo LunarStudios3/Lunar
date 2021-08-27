@@ -1,0 +1,46 @@
+.color-nav{
+background-color: rgba(56, 63, 54, 0.1) !important; 
+text-shadow: 3px 2px 5px black;
+ color: white !important;
+}
+
+
+.aboutvl {
+    border-left: 1px solid white;
+    height: 1rem;
+    position: absolute;
+    left: 13.2%;
+    margin-left: 1px;
+    top: 1.3rem;
+    opacity: 0.5;
+  }
+
+  .teamvl {
+    border-left: 1px solid white;
+    height: 1rem;
+    position: absolute;
+    left: 17.2%;
+    margin-left: 1px;
+    top: 1.3rem;
+    opacity: 0.5;
+  }
+
+  .portfoliovl {
+    border-left: 1px solid white;
+    height: 1rem;
+    position: absolute;
+    left: 23.2%;
+    margin-left: 1px;
+    top: 1.3rem;
+    opacity: 0.5;
+  }
+
+  .servicesvl {
+    border-left: 1px solid white;
+    height: 1rem;
+    position: absolute;
+    left: 28.8%;
+    margin-left: 1px;
+    top: 1.3rem;
+    opacity: 0.5;
+  }

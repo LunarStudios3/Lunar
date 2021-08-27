@@ -1,0 +1,7 @@
+.starVideo{
+    position: relative;
+    left:0px;
+    margin-left: 70%;
+    border:5 solid red;
+    background-color: red;
+}

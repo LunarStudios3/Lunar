@@ -1,0 +1,43 @@
+
+.about{
+    position:relative;
+    top:-150px
+}
+
+.topAbout{
+    position:relative;
+    object-fit: fill;
+    width:100%;
+}
+
+.leftbox{
+/* UI */
+text-align: center;
+font: normal normal 300 85px/108px Azo Sans;
+letter-spacing: 1px;
+color: #FFFFFF;
+opacity: 1;
+margin-top: 100px;
+
+}
+
+.rightbox{
+    text-align: left;
+    font: normal normal normal 18px/23px Azo Sans;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+
+
+.vl{
+    border-left: 5px solid white;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 0;
+}
