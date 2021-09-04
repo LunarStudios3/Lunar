@@ -1,7 +1,23 @@
-.starVideo{
-    position: relative;
-    left:0px;
-    margin-left: 70%;
-    border:5 solid red;
-    background-color: red;
+#Video {
+    height: auto;
+    position: static;
+    top: 50%;
+    overflow: hidden;
+}
+
+.backgroundVideo {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.landingLogo {
+    height: 470px;
+    width: 1100px;
+    align-items: center;
+    margin-top: 40px;
+    
 }
