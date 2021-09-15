@@ -1,9 +1,9 @@
 
 .about{
-    position: absolute;
-    height: 450px; 
+    position: relative;
+    height: 400px; 
     background-color: rgba(11, 11, 11, 1);
-    bottom: -500px;
+    margin-top: 186px;
 }
 
 .topAbout{
@@ -15,7 +15,7 @@
     z-index: 1;
     left: 0;
     right: 0;
-    top: 500px;
+    top: -200px;
 }
 
 .leftBox{

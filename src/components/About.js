@@ -5,7 +5,7 @@ import '../styles/about.css'
 function About (){
     return(
         <Container fluid className='about'>
-
+            <div className='topAbout'></div>
             <Row className='aboutRow'>
                 <Col className='leftBox' xs={5}>
                     <h1>LETS</h1> 

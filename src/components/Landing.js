@@ -11,8 +11,7 @@ function Landing (){
             </video> 
             
             <img className="landingLogo" src="https://i.imgur.com/3KlQtZ7.png" alt="Lunar Studios"/>
-            <div className='topAbout'>
-            </div>
+          
             
         </Container>
     );
