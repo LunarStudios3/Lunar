@@ -5,14 +5,13 @@ import '../styles/about.css'
 function About (){
     return(
         <Container fluid className='about'>
-            <div className='topAbout'></div>
             <Row className='aboutRow'>
-                <Col className='leftBox' xs={5}>
+                <Col className='leftBox' xs={4}>
                     <h1>LETS</h1> 
                     <h1>CREATE</h1> 
                     <h1>TOGETHER</h1>
                 </Col>
-                <Col className='middleBox' xs={1}><div className='vl'></div></Col>
+                <Col className='middleBox' xs={2}><div className='vl'></div></Col>
                 <Col className='rightBox' xs={6}>
                     <p>
                         Creating your own opportunities and having the power to create and surround 
