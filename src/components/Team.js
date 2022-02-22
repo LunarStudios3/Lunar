@@ -7,18 +7,45 @@ function Team (){
             title: "Front-End Developer",
             blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             pic: "https://i.imgur.com/KIJD1JC.png",
+            skills: [{
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"},]
         },
         {
             name: "Jonathan Mukes",
             title: "Backend Developer",
             blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             pic: "https://i.imgur.com/30PUlwN.png",
+            skills: [{
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"},]
         },
         {
             name: "Margaret Mukes",
             title: "Administrator",
             blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             pic: "https://i.imgur.com/Qt4tW9q.png",
+            skills: [{
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"},]
             
         },
         {
@@ -26,6 +53,15 @@ function Team (){
             title: "Backend Developer",
             blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             pic: "https://i.imgur.com/zJ9uHvC.png",
+            skills: [{
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"},]
 
 
         },
@@ -34,6 +70,15 @@ function Team (){
             title: "Graphic Designer",
             blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             pic: "https://i.imgur.com/PZokSbB.png",
+            skills: [{
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"
+            }, {
+                skill: "some skill", 
+                img: "img url"},]
 
         },
 
@@ -59,6 +104,12 @@ function Team (){
                                     <h3>{object.name} </h3>
                                     <h3 className="title">{object.title}</h3>
                                     <p>{object.blurb}</p>
+                            </Col>
+                            <Col>
+                            {object.skills.map(function(object, i){
+                                //col shit here
+                                <img src={object.skill} />
+                            })}
                             </Col>
                         </Row>
                     </Carousel.Item> )
