@@ -5,6 +5,7 @@ import TopAbout from './components/TopAbout'
 import About from './components/About'
 import TopTeam from './components/TopTeam'
 import Team from './components/Team'
+import Reviews from './components/Reviews'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
        <About />
        <TopTeam />
        <Team />
+       <Reviews />
 
       <header >
    
