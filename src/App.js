@@ -6,6 +6,7 @@ import About from './components/About'
 import TopTeam from './components/TopTeam'
 import Team from './components/Team'
 import Reviews from './components/Reviews'
+import Portfolio from './components/Portfolio'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
        <TopTeam />
        <Team />
        <Reviews />
+       <Portfolio />
 
       <header >
    

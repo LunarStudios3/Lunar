@@ -87,7 +87,7 @@ function Team (){
 
         <Container fluid className='teamMeet'> 
             <div className='teamStars'>
-                <div className='topLeft'><h1> <b> MEET THE TEAM </b></h1> </div>
+                <div className='leftHeader'><h1> <b> MEET THE TEAM </b></h1> </div>
                 <Carousel className='teamCarousel' indicators={false}>
                 {PeopleArr.map(function(object, i){
                     return (<Carousel.Item>
@@ -108,7 +108,7 @@ function Team (){
                             <Col>
                             {object.skills.map(function(object, i){
                                 //col shit here
-                                <img src={object.skill} />
+                                <img src={object.skill} alt="skill logo"/>
                             })}
                             </Col>
                         </Row>
