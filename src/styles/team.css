@@ -9,7 +9,7 @@
 
 .teamStars {
     background: transparent url(https://i.imgur.com/rLDFRYs.png) 0% 0% no-repeat padding-box;
-    opacity: 0.5;
+    opacity: 1;
     height: 700px;
     position: absolute;
     width: 100%;
